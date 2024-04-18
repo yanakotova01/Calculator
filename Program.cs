@@ -34,6 +34,13 @@ namespace calculator
               Console.WriteLine("Для выхода нажмите любую клавишу...");
               Console.ReadKey();
             }
+            else if (sign == '*') 
+            {
+              result = one * two;
+              Console.WriteLine("Произведение чисел равно " + result);
+              Console.WriteLine("Для выхода нажмите любую клавишу...");
+              Console.ReadKey();
+            }
         }
     }
 }
